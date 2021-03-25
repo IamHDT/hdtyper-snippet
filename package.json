@@ -1,0 +1,17 @@
+{
+  "name": "hdtyper-snippet",
+  "version": "0.1.0",
+  "dependencies": {
+    "node-pty": "^0.9.0"
+  },
+  "keywords": [
+    "hdtyper",
+    "hdtyper.app",
+    "hdtyperterm",
+    "hdtyper-plugin",
+    "hdtyperterm-plugin",
+    "hdtyper-extension",
+    "snippet",
+    "hdtyper-snippet"
+  ]
+}
