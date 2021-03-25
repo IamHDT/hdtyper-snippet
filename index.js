@@ -39,11 +39,11 @@ exports.onRendererWindow = (window) => {
   fs = window.require("fs")
   const os = window.require("os")
   const path = window.require("path")
-  const configPath  = path.join(os.homedir(),".hyper_plugins","hyper-snippet.js")
+  const configPath  = path.join(os.homedir(),".hdtyper_plugins","hdtyper-snippet.js")
   if(!fs.existsSync(configPath)){
     fs.writeFileSync(configPath,`module.exports = {
   open:{
-    "hs":"open ~/.hyper_plugins/hyper-snippet.js"
+    "hs":"open ~/.hdtyper_plugins/hdtyper-snippet.js"
   }
 }`)
     config = {}

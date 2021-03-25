@@ -1,11 +1,11 @@
-# hyper-snippet
-Help you create code snippet for your hyper terminal 
+# hdtyper-snippet
+Help you create code snippet for your hdtyper terminal 
 
 
 ## Quick Start:
-* install by ```hyper install hyper-snippet``` and restart your terminal
-* open hyper-snippet by type ```open hconf``` and hit ```TAB```, this will expand the command to "open ~/.hyper_plugins/hyper-snippet.js", hit ```ENTER``` to open it
-* Add the snippet in ```hyper-snippet.js``` as following: 
+* install by ```hdtyper install hdtyper-snippet``` and restart your terminal
+* open hdtyper-snippet by type ```open hconf``` and hit ```TAB```, this will expand the command to "open ~/.hdtyper_plugins/hdtyper-snippet.js", hit ```ENTER``` to open it
+* Add the snippet in ```hdtyper-snippet.js``` as following: 
 ```javascript
 module.exports = {
   
@@ -21,7 +21,7 @@ module.exports = {
 
 ### 1. Command Level snippet
 The Command Level snippet is like ```<command> <snippet-name>```. You can expand the snippet by hit ```TAB```. This will replace the ```<snippet-name>``` with the ```<text>``` you defined.
-To define Command Level snippet, add the following inside ```hyper-snippet.js```
+To define Command Level snippet, add the following inside ```hdtyper-snippet.js```
 ```javascript
 module.exports = {
   ...
@@ -34,7 +34,7 @@ module.exports = {
 ```
 ### 2. Sub Command Level snippet
 The Sub Command Level snippet is like ```<command> <sub-command> <snippet-name>```. You can expand the snippet by hit ```TAB```. This will replace the ```<snippet-name>``` with the ```<text>``` you defined.
-To define Sub Command level snippet, add the following inside ```hyper-snippet.js```
+To define Sub Command level snippet, add the following inside ```hdtyper-snippet.js```
 ```javascript
 module.exports = {
   ...
